@@ -837,14 +837,6 @@ public final class CSVFormat implements Serializable {
                 }
             }
         }
-        for (int i=0; i<20*60*60; i++) {
-            System.out.print('.');
-            try {
-                Thread.currentThread().sleep(1000);
-            } catch (InterruptedException e) {
-                break;
-            }
-        }
     }
 
     /**
